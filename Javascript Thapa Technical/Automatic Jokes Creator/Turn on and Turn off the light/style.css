@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.bulb-container {
+    margin-top: 20px;
+}
+
+.bulb {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+.bulb.on {
+    background-color: #ffec40; /* Yellow color for "Bulb On" */
+}
+
+.bulb.off {
+    background-color: #ccc; /* Default color for "Bulb Off" */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
